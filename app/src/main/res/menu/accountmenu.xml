@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu1">
+    <item
+        android:title="Account"
+        android:icon="@drawable/baseline_person_focused"
+        android:id="@+id/account"
+        />
+
+    <item
+        android:title="Tracking Location File"
+        android:icon="@drawable/baseline_my_location_24"
+        android:id="@+id/Trackloc"
+        />
+    </group>
+
+    <group android:id="@+id/menu2">
+        <item
+            android:title="Basemap"
+            android:icon="@drawable/baseline_map_24"
+            android:id="@+id/Basemap"
+            />
+
+        <item
+            android:title="Offline Map"
+            android:icon="@drawable/baseline_logout_24"
+            android:id="@+id/OfflineMap"
+            />
+    </group>
+
+    <item
+        android:title="About US"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/aboutus"
+        />
+
+</menu>
